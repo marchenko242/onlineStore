@@ -1,35 +1,51 @@
-.itemsOfMenu li {
-    list-style: none;
-    background-color: darkblue;
-    width: 150px;
-    height: 50px;
-    margin: 15px;
-    align-items: center;
+.container {
     display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    font-family: 'Inter', 'Roboto', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+    flex-direction: column;
+    width: 16.5%;
+    padding: 20px 0;
+    position: fixed;
+
+}
+
+.sidebarHeader {
+    padding: 0 20px 30px;
+    text-align: center;
+}
+
+.logoImage {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.itemsOfMenu {
+    list-style: none;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.menuItem {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    transition: background-color 0.3s;
+}
+
+.menuItem:hover {
+    background-color: #2980b9;
 }
 
 .linkStyle {
     text-decoration: none;
     color: white;
-}
-
-.container img {
-    width: 150px;
-    height: auto;
-    margin: 0 auto 30px auto;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.95rem;
     display: block;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 15px 0;
 }
